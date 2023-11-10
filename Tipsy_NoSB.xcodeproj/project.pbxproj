@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0442B4B529A0057C0082D50F /* TipsyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442B4B429A0057C0082D50F /* TipsyViewController.swift */; };
+		0442B4B829A0157B0082D50F /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442B4B729A0157B0082D50F /* UIColor+Extension.swift */; };
+		0442B4BB29A533F40082D50F /* ResultUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442B4BA29A533F40082D50F /* ResultUIView.swift */; };
+		0442B4BD29A542AB0082D50F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442B4BC29A542AB0082D50F /* ResultViewController.swift */; };
+		0442B4C029A7F1B70082D50F /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442B4BF29A7F1B70082D50F /* Tip.swift */; };
 		0498B37427BECE0800B1FCD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498B37327BECE0800B1FCD7 /* AppDelegate.swift */; };
-		0498B37627BECE0800B1FCD7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498B37527BECE0800B1FCD7 /* SceneDelegate.swift */; };
-		0498B37827BECE0800B1FCD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498B37727BECE0800B1FCD7 /* ViewController.swift */; };
-		0498B37B27BECE0800B1FCD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0498B37927BECE0800B1FCD7 /* Main.storyboard */; };
 		0498B37D27BECE0A00B1FCD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0498B37C27BECE0A00B1FCD7 /* Assets.xcassets */; };
 		0498B38027BECE0A00B1FCD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0498B37E27BECE0A00B1FCD7 /* LaunchScreen.storyboard */; };
+		0498B38D27BECF5000B1FCD7 /* TipsyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498B38C27BECF5000B1FCD7 /* TipsyCoordinator.swift */; };
+		0498B38F27BECF7500B1FCD7 /* TipsyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498B38E27BECF7500B1FCD7 /* TipsyFactory.swift */; };
+		0498B39227BECFE000B1FCD7 /* TipsyUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498B39127BECFE000B1FCD7 /* TipsyUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0442B4B429A0057C0082D50F /* TipsyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsyViewController.swift; sourceTree = "<group>"; };
+		0442B4B729A0157B0082D50F /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		0442B4BA29A533F40082D50F /* ResultUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultUIView.swift; sourceTree = "<group>"; };
+		0442B4BC29A542AB0082D50F /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		0442B4BF29A7F1B70082D50F /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
 		0498B37027BECE0800B1FCD7 /* Tipsy_NoSB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipsy_NoSB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0498B37327BECE0800B1FCD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0498B37527BECE0800B1FCD7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0498B37727BECE0800B1FCD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0498B37A27BECE0800B1FCD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0498B37C27BECE0A00B1FCD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0498B37F27BECE0A00B1FCD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0498B38127BECE0A00B1FCD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0498B38C27BECF5000B1FCD7 /* TipsyCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsyCoordinator.swift; sourceTree = "<group>"; };
+		0498B38E27BECF7500B1FCD7 /* TipsyFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsyFactory.swift; sourceTree = "<group>"; };
+		0498B39127BECFE000B1FCD7 /* TipsyUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsyUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0442B4B929A533C60082D50F /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				0442B4BA29A533F40082D50F /* ResultUIView.swift */,
+				0442B4BC29A542AB0082D50F /* ResultViewController.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		0442B4BE29A7F19F0082D50F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0442B4BF29A7F1B70082D50F /* Tip.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		0498B36727BECE0800B1FCD7 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +83,67 @@
 		0498B37227BECE0800B1FCD7 /* Tipsy_NoSB */ = {
 			isa = PBXGroup;
 			children = (
+				0442B4BE29A7F19F0082D50F /* Models */,
+				0498B38B27BECEF300B1FCD7 /* Utils */,
+				0498B38A27BECEDE00B1FCD7 /* View */,
+				0498B38927BECECB00B1FCD7 /* Factory */,
+				0498B38827BECEC200B1FCD7 /* Coordinator */,
+				0498B38727BECEBA00B1FCD7 /* Common */,
 				0498B37327BECE0800B1FCD7 /* AppDelegate.swift */,
-				0498B37527BECE0800B1FCD7 /* SceneDelegate.swift */,
-				0498B37727BECE0800B1FCD7 /* ViewController.swift */,
-				0498B37927BECE0800B1FCD7 /* Main.storyboard */,
 				0498B37C27BECE0A00B1FCD7 /* Assets.xcassets */,
-				0498B37E27BECE0A00B1FCD7 /* LaunchScreen.storyboard */,
 				0498B38127BECE0A00B1FCD7 /* Info.plist */,
 			);
 			path = Tipsy_NoSB;
+			sourceTree = "<group>";
+		};
+		0498B38727BECEBA00B1FCD7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0442B4B729A0157B0082D50F /* UIColor+Extension.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0498B38827BECEC200B1FCD7 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				0498B38C27BECF5000B1FCD7 /* TipsyCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		0498B38927BECECB00B1FCD7 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				0498B38E27BECF7500B1FCD7 /* TipsyFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		0498B38A27BECEDE00B1FCD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0442B4B929A533C60082D50F /* Result */,
+				0498B39027BECFC100B1FCD7 /* Calculator */,
+				0498B37E27BECE0A00B1FCD7 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0498B38B27BECEF300B1FCD7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0498B39027BECFC100B1FCD7 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				0498B39127BECFE000B1FCD7 /* TipsyUIView.swift */,
+				0442B4B429A0057C0082D50F /* TipsyViewController.swift */,
+			);
+			path = Calculator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +206,6 @@
 			files = (
 				0498B38027BECE0A00B1FCD7 /* LaunchScreen.storyboard in Resources */,
 				0498B37D27BECE0A00B1FCD7 /* Assets.xcassets in Resources */,
-				0498B37B27BECE0800B1FCD7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +216,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0498B37827BECE0800B1FCD7 /* ViewController.swift in Sources */,
+				0498B39227BECFE000B1FCD7 /* TipsyUIView.swift in Sources */,
+				0498B38D27BECF5000B1FCD7 /* TipsyCoordinator.swift in Sources */,
+				0442B4BB29A533F40082D50F /* ResultUIView.swift in Sources */,
+				0442B4BD29A542AB0082D50F /* ResultViewController.swift in Sources */,
+				0498B38F27BECF7500B1FCD7 /* TipsyFactory.swift in Sources */,
+				0442B4B829A0157B0082D50F /* UIColor+Extension.swift in Sources */,
+				0442B4C029A7F1B70082D50F /* Tip.swift in Sources */,
 				0498B37427BECE0800B1FCD7 /* AppDelegate.swift in Sources */,
-				0498B37627BECE0800B1FCD7 /* SceneDelegate.swift in Sources */,
+				0442B4B529A0057C0082D50F /* TipsyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0498B37927BECE0800B1FCD7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0498B37A27BECE0800B1FCD7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0498B37E27BECE0A00B1FCD7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +370,7 @@
 				INFOPLIST_FILE = Tipsy_NoSB/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +398,7 @@
 				INFOPLIST_FILE = Tipsy_NoSB/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
